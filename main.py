@@ -1,6 +1,6 @@
 import logging
 
-from rasa_sdk import constants, endpoint
+from rasa-sdk import constants, endpoint
 
 logger = logging.getLogger(__name__)
 
