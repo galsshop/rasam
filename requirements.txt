@@ -61,7 +61,7 @@ SQLAlchemy~=1.3.3
 kafka-python==1.4.6
 sklearn-crfsuite==0.3.6
 psycopg2-binary==2.8.2
-PyJWT==1.7.1
-rasa==2.8.21 
-rasa-sdk==2.8.3 
+PyJWT
+rasa==2.8.1 
+rasa-sdk==2.8.1
 rasa-x==0.39.3
