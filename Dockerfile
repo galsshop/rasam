@@ -11,7 +11,7 @@ USER root
 COPY . /var/www
 WORKDIR /var/www
 
-#RUN pip install ujson-3.1.0-cp38-cp38-win32.whl
+RUN pip install ujson
 RUN pip install python-dateutil==2.8.0
 RUN pip install --upgrade pip setuptools wheel
 RUN pip install rasa==2.8.1 
