@@ -11,7 +11,9 @@ USER root
 COPY . /var/www
 WORKDIR /var/www
 
-RUN pip install ujson
+#RUN pip install ujson
+RUN pip install python-jsonrpc-server<0.4
+RUN pip install python-language-server[all] --use-feature=2022-resolver
 RUN pip install python-dateutil==2.8.0
 RUN pip install --upgrade pip setuptools wheel
 RUN pip install rasa==2.8.1 
