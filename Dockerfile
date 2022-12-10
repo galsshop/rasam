@@ -1,7 +1,7 @@
 FROM rasa/rasa
 
 ENV BOT_ENV=production
-
+USER root
 COPY . /var/www
 WORKDIR /var/www
 
