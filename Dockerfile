@@ -10,7 +10,7 @@ ENV BOT_ENV=production
 USER root
 COPY . /var/www
 WORKDIR /var/www
-RUN sudo apt-get install build-essential python3 python-dev python3-dev
+
 RUN pip install ujson
 RUN pip install python-dateutil==2.8.0
 RUN pip install --upgrade pip setuptools wheel
